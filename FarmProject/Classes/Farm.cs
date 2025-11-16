@@ -14,6 +14,20 @@ namespace FarmProject.Classes
         public string Location { get; set; }
         public double Balance { get; set; }
 
+        public List<Plot> Plots
+        {
+            get { return plots; }
+        }
+        public List<Worker> Workers
+        {
+            get { return workers; }
+        }
+        public Manager Manager
+        {
+            get { return manager; }
+            set { manager = value; }
+        }
+
         public Farm(string name, string location, double startBalance)
         {
             throw new NotImplementedException();

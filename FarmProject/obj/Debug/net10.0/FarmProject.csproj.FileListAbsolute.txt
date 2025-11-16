@@ -1,0 +1,15 @@
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\bin\Debug\net10.0\FarmProject.exe
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\bin\Debug\net10.0\FarmProject.deps.json
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\bin\Debug\net10.0\FarmProject.runtimeconfig.json
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\bin\Debug\net10.0\FarmProject.dll
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\bin\Debug\net10.0\FarmProject.pdb
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\obj\Debug\net10.0\FarmProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\obj\Debug\net10.0\FarmProject.AssemblyInfoInputs.cache
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\obj\Debug\net10.0\FarmProject.AssemblyInfo.cs
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\obj\Debug\net10.0\FarmProject.csproj.CoreCompileInputs.cache
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\obj\Debug\net10.0\FarmProject.sourcelink.json
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\obj\Debug\net10.0\FarmProject.dll
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\obj\Debug\net10.0\refint\FarmProject.dll
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\obj\Debug\net10.0\FarmProject.pdb
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\obj\Debug\net10.0\FarmProject.genruntimeconfig.cache
+C:\Users\stoper\Desktop\KHAI\OOP\FarmProject\FarmProject\obj\Debug\net10.0\ref\FarmProject.dll

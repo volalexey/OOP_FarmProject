@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="FarmProject/FarmProject.csproj" />
+  <Project Path="FarmProjectTest/FarmProjectTest.csproj" Id="f0355cce-8b3f-4fbd-b980-b318bf571c43" />
 </Solution>
