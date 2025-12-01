@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace FarmProject.Classes
 {
@@ -14,14 +13,8 @@ namespace FarmProject.Classes
         public string Location { get; set; }
         public double Balance { get; set; }
 
-        public List<Plot> Plots
-        {
-            get { return plots; }
-        }
-        public List<Worker> Workers
-        {
-            get { return workers; }
-        }
+        public List<Plot> Plots => plots;
+        public List<Worker> Workers => workers;
         public Manager Manager
         {
             get { return manager; }
@@ -30,37 +23,104 @@ namespace FarmProject.Classes
 
         public Farm(string name, string location, double startBalance)
         {
-            throw new NotImplementedException();
+            Name = name;
+            Location = location;
+            Balance = startBalance;
+            plots = new List<Plot>();
+            workers = new List<Worker>();
         }
 
         public bool BuyPlot(Plot plot)
         {
-            throw new NotImplementedException();
+            if (Balance >= plot.BaseCost)
+            {
+                Balance -= plot.BaseCost;
+                plots.Add(plot);
+                Console.WriteLine("The plot has been successfully purchased!");
+                return true;
+            }
+            Console.WriteLine("Insufficient funds to purchase a plot.");
+            return false;
         }
 
         public void HireWorker(Worker worker)
         {
-            throw new NotImplementedException();
+            workers.Add(worker);
+            Console.WriteLine($"Worker {worker.Name} hired.");
         }
 
         public void FireWorker(Worker worker)
         {
-            throw new NotImplementedException();
+            if (workers.Contains(worker))
+            {
+                workers.Remove(worker);
+
+                foreach (var plot in plots)
+                {
+                    plot.RemoveWorker(worker);
+                }
+                Console.WriteLine($"Worker {worker.Name} fired.");
+            }
         }
 
         public void AssignWorkerToPlot(Worker worker, Plot plot)
         {
-            throw new NotImplementedException();
+            if (workers.Contains(worker) && plots.Contains(plot))
+            {
+                plot.AssignWorker(worker);
+                Console.WriteLine($"{worker.Name} assigned to plot.");
+            }
+            else
+            {
+                Console.WriteLine("Wrong employee or plot.");
+            }
         }
 
         public bool UpgradePlot(Plot plot)
         {
-            throw new NotImplementedException();
+            double upgradeCost = plot.BaseCost * 0.5;
+
+            if (Balance >= upgradeCost)
+            {
+                Balance -= upgradeCost;
+                plot.Upgrade();
+                Console.WriteLine($"Upgrade successful! Cost: ${upgradeCost:F2}. Remaining Balance: ${Balance:F2}");
+                return true;
+            }
+
+            Console.WriteLine($"Not enough funds! Cost: ${upgradeCost:F2}, but you have ${Balance:F2}");
+            return false;
         }
 
-        public void CollectAllIncome()
+        public double CollectAllIncome()
         {
-            throw new NotImplementedException();
+            double grossIncome = 0;
+            foreach (var plot in plots)
+            {
+                grossIncome += plot.CalculateIncome();
+            }
+
+            double managerSalary = (manager != null) ? manager.Salary : 0;
+
+            double workersSalary = 0;
+            foreach (var worker in workers)
+            {
+                workersSalary += worker.Salary;
+            }
+
+            double totalExpenses = managerSalary + workersSalary;
+
+            double netIncome = grossIncome - totalExpenses;
+            Balance += netIncome;
+
+            Console.WriteLine("\n=== FINANCIAL REPORT ===");
+            Console.WriteLine($"Gross Income (Plots): +${grossIncome:F2}");
+            Console.WriteLine($"Expenses (Salaries):  -${totalExpenses:F2} (Manager: {managerSalary}, Workers: {workersSalary})");
+            Console.WriteLine($"---------------------------");
+            Console.WriteLine($"Net Profit:           ${netIncome:F2}");
+            Console.WriteLine($"New Balance:          ${Balance:F2}");
+
+            return Balance;
         }
     }
 }

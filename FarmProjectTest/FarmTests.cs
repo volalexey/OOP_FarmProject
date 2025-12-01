@@ -107,20 +107,20 @@ namespace FarmProjectTest
             // Arrange
             Farm farm = CreateFarmWithBalance(1000);
 
-            AnimalPen pen = new AnimalPen(10, 100, 10);
+            AnimalPen pen = new AnimalPen(10, 0, 10);
             pen.AddAnimals(20);
             farm.BuyPlot(pen);
 
-            CropPlot crop = new CropPlot(5, 100, 30);
+            CropPlot crop = new CropPlot(5, 0, 30);
             farm.BuyPlot(crop);
 
             double expectedBalance = 1000 + 350;
 
             // Act
-            farm.CollectAllIncome();
+            double balance = farm.CollectAllIncome();
 
             // Assert
-            Assert.AreEqual(expectedBalance, farm.Balance);
+            Assert.AreEqual(expectedBalance, balance);
         }
     }
 }

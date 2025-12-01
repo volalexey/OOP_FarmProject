@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\classes\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\classes\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\classes\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\classes\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\classes\\farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\classes\\farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmprojecttest\\farmtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|solutionrelative:farmprojecttest\\farmtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\classes\\cropplot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +23,24 @@
       "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\classes\\animalpen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmprojecttest\\farmtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|solutionrelative:farmprojecttest\\farmtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\classes\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\classes\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmprojecttest\\animalpentests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|solutionrelative:farmprojecttest\\animalpentests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\classes\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\classes\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmprojecttest\\cropplottests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|solutionrelative:farmprojecttest\\cropplottests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmprojecttest\\workertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|solutionrelative:farmprojecttest\\workertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\types\\croptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\types\\croptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmprojecttest\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|solutionrelative:farmprojecttest\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\types\\animaltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\types\\animaltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\interfaces\\iproducible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,16 +51,20 @@
       "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\interfaces\\iperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\types\\animaltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\types\\animaltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmprojecttest\\workertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|solutionrelative:farmprojecttest\\workertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\types\\croptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\types\\croptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmprojecttest\\animalpentests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|solutionrelative:farmprojecttest\\animalpentests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10279F96-B842-B86F-19FE-7FABF706A2FE}|FarmProject\\FarmProject.csproj|solutionrelative:farmproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmprojecttest\\cropplottests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|solutionrelative:farmprojecttest\\cropplottests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|c:\\users\\stoper\\desktop\\khai\\oop\\farmproject\\farmprojecttest\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0355CCE-8B3F-4FBD-B980-B318BF571C43}|FarmProjectTest\\FarmProjectTest.csproj|solutionrelative:farmprojecttest\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "MSTestSettings.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProjectTest\\MSTestSettings.cs",
               "RelativeDocumentMoniker": "FarmProjectTest\\MSTestSettings.cs",
@@ -90,198 +90,192 @@
               "RelativeToolTip": "FarmProjectTest\\MSTestSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T20:52:24.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T20:52:24.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "FarmTests.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProjectTest\\FarmTests.cs",
               "RelativeDocumentMoniker": "FarmProjectTest\\FarmTests.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProjectTest\\FarmTests.cs",
               "RelativeToolTip": "FarmProjectTest\\FarmTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T18:39:49.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "CropPlotTests.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProjectTest\\CropPlotTests.cs",
               "RelativeDocumentMoniker": "FarmProjectTest\\CropPlotTests.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProjectTest\\CropPlotTests.cs",
               "RelativeToolTip": "FarmProjectTest\\CropPlotTests.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEEAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwDEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T18:37:34.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T18:37:34.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "AnimalPenTests.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProjectTest\\AnimalPenTests.cs",
               "RelativeDocumentMoniker": "FarmProjectTest\\AnimalPenTests.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProjectTest\\AnimalPenTests.cs",
               "RelativeToolTip": "FarmProjectTest\\AnimalPenTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T18:34:38.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T18:34:38.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "WorkerTests.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProjectTest\\WorkerTests.cs",
               "RelativeDocumentMoniker": "FarmProjectTest\\WorkerTests.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProjectTest\\WorkerTests.cs",
               "RelativeToolTip": "FarmProjectTest\\WorkerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T18:23:16.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T18:23:16.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Farm.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\Farm.cs",
               "RelativeDocumentMoniker": "FarmProject\\Classes\\Farm.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\Farm.cs",
               "RelativeToolTip": "FarmProject\\Classes\\Farm.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAADwv0IAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAUwGYAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T17:17:03.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AnimalPen.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\AnimalPen.cs",
               "RelativeDocumentMoniker": "FarmProject\\Classes\\AnimalPen.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\AnimalPen.cs",
               "RelativeToolTip": "FarmProject\\Classes\\AnimalPen.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA9wBwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T17:16:43.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CropPlot.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\CropPlot.cs",
               "RelativeDocumentMoniker": "FarmProject\\Classes\\CropPlot.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\CropPlot.cs",
               "RelativeToolTip": "FarmProject\\Classes\\CropPlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T17:16:05.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Plot.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\Plot.cs",
               "RelativeDocumentMoniker": "FarmProject\\Classes\\Plot.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\Plot.cs",
               "RelativeToolTip": "FarmProject\\Classes\\Plot.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:15:35.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T17:15:35.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\Worker.cs",
               "RelativeDocumentMoniker": "FarmProject\\Classes\\Worker.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\Worker.cs",
               "RelativeToolTip": "FarmProject\\Classes\\Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA9wBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:14:56.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T17:14:56.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Manager.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\Manager.cs",
               "RelativeDocumentMoniker": "FarmProject\\Classes\\Manager.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Classes\\Manager.cs",
               "RelativeToolTip": "FarmProject\\Classes\\Manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:14:03.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T17:14:03.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "IProducible.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Interfaces\\IProducible.cs",
               "RelativeDocumentMoniker": "FarmProject\\Interfaces\\IProducible.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Interfaces\\IProducible.cs",
               "RelativeToolTip": "FarmProject\\Interfaces\\IProducible.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T17:13:43.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "IPerson.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Interfaces\\IPerson.cs",
               "RelativeDocumentMoniker": "FarmProject\\Interfaces\\IPerson.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Interfaces\\IPerson.cs",
               "RelativeToolTip": "FarmProject\\Interfaces\\IPerson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T17:13:24.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "AnimalType.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Types\\AnimalType.cs",
               "RelativeDocumentMoniker": "FarmProject\\Types\\AnimalType.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Types\\AnimalType.cs",
               "RelativeToolTip": "FarmProject\\Types\\AnimalType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T17:12:50.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "CropType.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Types\\CropType.cs",
               "RelativeDocumentMoniker": "FarmProject\\Types\\CropType.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Types\\CropType.cs",
               "RelativeToolTip": "FarmProject\\Types\\CropType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T17:12:29.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Program.cs",
               "RelativeDocumentMoniker": "FarmProject\\Program.cs",
               "ToolTip": "C:\\Users\\stoper\\Desktop\\KHAI\\OOP\\FarmProject\\FarmProject\\Program.cs",
               "RelativeToolTip": "FarmProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwD0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:09:35.24Z"
+              "WhenOpened": "2025-11-12T17:09:35.24Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,7 +1,5 @@
 ﻿using FarmProject.Types;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace FarmProject.Classes
 {
@@ -12,23 +10,34 @@ namespace FarmProject.Classes
         public int MaxCapacity { get; set; }
 
         public AnimalPen(int size, double cost, double income)
+            : base(size, cost, income)
         {
-            throw new NotImplementedException();
+            MaxCapacity = size * 5;
+            AnimalCount = 0;
+            CurrentAnimal = AnimalType.COW;
         }
 
         public override double CalculateIncome()
         {
-            throw new NotImplementedException();
+            if (AnimalCount == 0) return 0;
+
+            return (BaseIncome * AnimalCount) * GetTotalWorkerMultiplier();
         }
 
         public override void Upgrade()
         {
-            throw new NotImplementedException();
+            MaxCapacity += 10;
+            Console.WriteLine($"The pen has been expanded! Now accommodates {MaxCapacity} animals.");
         }
 
         public bool AddAnimals(int count)
         {
-            throw new NotImplementedException();
+            if (AnimalCount + count <= MaxCapacity)
+            {
+                AnimalCount += count;
+                return true;
+            }
+            return false;
         }
     }
 }

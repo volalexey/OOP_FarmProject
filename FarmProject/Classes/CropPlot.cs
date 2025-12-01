@@ -1,7 +1,4 @@
 ﻿using FarmProject.Types;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace FarmProject.Classes
 {
@@ -10,23 +7,26 @@ namespace FarmProject.Classes
         public CropType CurrentCrop { get; set; }
 
         public CropPlot(int size, double cost, double income)
+            : base(size, cost, income)
         {
-            throw new NotImplementedException();
+            CurrentCrop = CropType.WHEAT;
         }
 
         public override double CalculateIncome()
         {
-            throw new NotImplementedException();
+            return (BaseIncome * Size) * GetTotalWorkerMultiplier();
         }
 
         public override void Upgrade()
         {
-            throw new NotImplementedException();
+            base.Upgrade();
+            Console.WriteLine("A new irrigation system has been installed for the field");
         }
 
         public void Plant(CropType crop)
         {
-            throw new NotImplementedException();
+            CurrentCrop = crop;
+            Console.WriteLine($"Planted in the field: {crop}");
         }
     }
 }
