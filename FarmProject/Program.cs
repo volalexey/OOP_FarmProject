@@ -14,6 +14,15 @@ namespace FarmProject
         {
             InitializeFarm();
 
+            myFarm.OnBalanceChanged += (newBalance) =>
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($" >>> BANK NOTIFICATION: Balance updated. New: ${newBalance:F2}");
+                Console.ResetColor();
+            };
+
+            myFarm.OnNewDay += MyFarm_OnNewDay;
+
             bool isRunning = true;
             while (isRunning)
             {
@@ -33,10 +42,19 @@ namespace FarmProject
                     case "5": ManagePlotAction(); break;
                     case "6": UpgradeExistingPlot(); break;
                     case "7": CollectDailyIncome(); break;
+                    case "8": GiveBonusesMenu(); break;
+                    case "9": FindWorkersMenu(); break;
                     case "0": isRunning = false; break;
                     default: break;
                 }
             }
+        }
+
+        private static void MyFarm_OnNewDay(object sender, EventArgs e)
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("\n*** DAY ENDED! STATISTICS SAVED. ***");
+            Console.ResetColor();
         }
 
         static void InitializeFarm()
@@ -44,6 +62,64 @@ namespace FarmProject
             myFarm = new Farm("Alex Farm", "Ukraine", 2000);
             myFarm.Manager = new Manager("Boss", 40, 100);
             myFarm.BuyPlot(new CropPlot(10, 0, 20));
+        }
+
+        static void GiveBonusesMenu()
+        {
+            Console.WriteLine("\n--- BONUS DISTRIBUTION ---");
+            Console.WriteLine("Choose bonus strategy:");
+            Console.WriteLine("1. Efficiency based (Eff * 10$)");
+            Console.WriteLine("2. Hard work based (Salary * 10%)");
+
+            string c = Console.ReadLine();
+            BonusCalculation strategy = null;
+
+            if (c == "1")
+            {
+                strategy = (w) => w.EfficiencyMultiplier * 10;
+            }
+            else if (c == "2")
+            {
+                strategy = (w) => w.Salary * 0.1;
+            }
+            else return;
+
+            double paid = myFarm.Manager.DistributeBonuses(
+                myFarm.Workers,
+                strategy,
+                msg => Console.WriteLine(msg)
+            );
+
+            if (paid > 0)
+            {
+                myFarm.Balance -= paid;
+                Console.WriteLine($"Total bonuses paid: ${paid:F2}");
+            }
+            WaitForKey();
+        }
+
+        static void FindWorkersMenu()
+        {
+            Console.WriteLine("\n--- HR SEARCH (Predicate) ---");
+            Console.WriteLine("1. Find High Salary (> $500)");
+            Console.WriteLine("2. Find Young Workers (< 30 y.o.)");
+
+            string c = Console.ReadLine();
+            Predicate<Worker> filter = null;
+
+            if (c == "1") filter = w => w.Salary > 500;
+            else if (c == "2") filter = w => w.Age < 30;
+            else return;
+
+            var results = myFarm.FindWorkers(filter);
+
+            Console.WriteLine($"Found {results.Count} workers:");
+            foreach (var w in results)
+            {
+                Console.WriteLine($"- {w.Name} (Age: {w.Age}, Sal: {w.Salary})");
+            }
+            Console.WriteLine("Press Enter...");
+            Console.ReadLine();
         }
 
         static void PrintHeader()
@@ -62,6 +138,8 @@ namespace FarmProject
             Console.WriteLine("5. Manage Plot");
             Console.WriteLine("6. Upgrade Plot");
             Console.WriteLine("7. [END DAY] Pay Salaries & Collect Income");
+            Console.WriteLine("8. [DELEGATE] Distribute Bonuses");
+            Console.WriteLine("9. [PREDICATE] Find Workers");
             Console.WriteLine("0. Exit");
             Console.WriteLine("----------------------------------------------");
         }
